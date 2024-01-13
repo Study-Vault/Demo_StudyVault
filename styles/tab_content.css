@@ -1,0 +1,13 @@
+
+
+ol.toc {
+	background: #13c3b7;
+	padding: 20px;
+}
+
+ol.toc li {
+	background: #bfdbdf;
+	color: #34446a;
+	padding: 5px;
+	margin-left: 35px;
+}

@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@vercel/analytics": "^1.1.1",
+    "@vercel/speed-insights": "^1.0.2",
+    "body-parser": "^1.20.2",
+    "express.js": "^1.0.0",
+    "knex": "^3.1.0",
+    "nodemon": "^3.0.2",
+    "pg": "^8.11.3"
+  },
+  "name": "studyvault",
+  "description": "",
+  "version": "1.0.0",
+  "main": "courses.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

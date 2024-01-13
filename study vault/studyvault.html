@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-3ZCFXKLSYT"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-3ZCFXKLSYT');
+	</script>
+  <meta charset="UTF-8">
+  <title>Study Vault</title>
+  <link rel="shortcut icon" type="image/png" href="website_logo.png">
+  <link href="studyvault.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* Additional custom styles */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown-content a {
+      display: block;
+      padding: 4px 8px;
+      text-decoration: none;
+      color: #374151;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #F3F4F6;
+      background-color: gray;
+    }
+
+    .review_section {
+      margin-left: 50px;
+      display: inline_block;
+    }
+
+    .logo {
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    .logo_change {
+      width: 50px;
+      height: 50px;
+      border-radius: 60%;
+    }
+
+    .title {
+      display: inline-flex;
+    }
+
+    .title_change {
+      margin-bottom: 10px;
+    }
+
+    .review {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="flex justify-between bg-gray-200 py-4 px-6">
+    <div class="Home">
+      <a href="../studyvault.html" class="text-gray-800 font-bold">Study Vault</a>
+    </div>
+    <div class="Home">
+      <a href="index.html" class="text-gray-800">Home</a>
+    </div>
+    <div class="Home">
+      <a href="../subscriptions.html" class="text-gray-800">Subscriptions</a>
+    </div>
+    <div class="dropdown relative">
+      <button class="dropbutton inline-flex items-center">Elementary School
+        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+      </button>
+      <div class="dropdown-content hidden absolute bg-white text-gray-800 rounded-lg shadow-lg z-10">
+        <a href="elementary/first_grade.html">1st Grade</a>
+        <a href="elementary/second_grade.html">2nd Grade</a>
+        <a href="elementary/third_grade.html">3rd Grade</a>
+        <a href="elementary/fourth_grade.html">4th Grade</a>
+        <a href="elementary/fifth_grade.html">5th Grade</a>
+      </div>
+    </div>
+    <div class="dropdown relative">
+      <button class="dropbutton inline-flex items-center">Middle School
+        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+      </button>
+      <div class="dropdown-content hidden absolute bg-white text-gray-800 rounded-lg shadow-lg z-10">
+        <a href="middle/sixth_grade.html">6th Grade</a>
+        <a href="middle/seventh_grade.html">7th Grade</a>
+        <a href="middle/eight_grade.html">8th Grade</a>
+      </div>
+    </div>
+    <div class="dropdown relative">
+      <button class="dropbutton inline-flex items-center">High School
+        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+      </button>
+      <div class="dropdown-content hidden absolute bg-white text-gray-800 rounded-lg shadow-lg z-10">
+        <a href="high/ninth_grade.html">9th Grade</a>
+        <a href="high/tenth_grade.html">10th Grade</a>
+        <a href="high/eleventh_grade.html">11th Grade</a>
+        <a href="high/twelvth_grade.html">12th Grade</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mx-auto py-8 px-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <!-- Sections -->
+      <div class="p-6 bg-white rounded-md shadow-md">
+        <h1 class="text-xl font-bold mb-4">About</h1>
+        <p>Welcome to our platform, dedicated to supporting students' academic journey. We offer a diverse range of
+          assignments, covering homework to classwork, aiming to be a reliable resource to enhance learning experiences.
+        </p>
+      </div>
+      <div class="p-6 bg-white rounded-md shadow-md">
+        <h1 class="text-xl font-bold mb-4">Purpose</h1>
+        <p>Our primary goal is empowering students with a comprehensive collection of assignments across various
+          subjects and educational levels. We aim to offer accessible, quality assignments to support effective
+          classroom learning.</p>
+      </div>
+      <div class="p-6 bg-white rounded-md shadow-md">
+        <h1 class="text-xl font-bold mb-4">Contact</h1>
+        <p>Email - nooneknows212@gmail.com</p>
+        <p>Deeprun High School</p>
+      </div>
+      <div class="p-6 bg-white rounded-md shadow-md">
+        <h1 class="text-xl font-bold mb-4">Tips</h1>
+        <p>In this section, discover valuable study tips, recommended reading materials, educational videos, and
+          productivity hacks. Beyond assignments, we focus on enriching study habits and providing supplementary
+          resources to foster holistic learning environments, aiding students' academic success.</p>
+      </div>
+
+      <!-- Reviews Section -->
+      <div class="col-span-2 p-6 bg-white rounded-md shadow-md">
+        <h1 class="text-2xl font-bold mb-4">Reviews</h1>
+        <!-- Review Cards -->
+        <div>
+          <div class="logo">
+            <img class="logo_change" src="images/logo.png" alt="Italian Trulli">
+          </div>
+          <div class="title">
+            <h1 class="title_change">Charlie</h1>
+          </div>
+          <div class="review">
+            This comprehensive platform offering diverse school assignments, from homework to classwork, provides a rich
+            resource for students seeking academic support and practice. Just love it! 5 stars"
+          </div>
+        </div>
+        <div>
+          <div class="logo">
+            <img class="logo_change" src="images/logo.png" alt="Italian Trulli">
+          </div>
+          <div class="title">
+            <h1 class="title_change">Aakash</h1>
+          </div>
+          <div class="review">
+            This website curates a range of school assignments, simplifying access to homework and classwork materials,
+            aiding students in their educational journey. It has helped me gain knwoledge and complete my assingments
+            quicker. Deserves 5 star rating!
+          </div>
+        </div>
+        <div>
+          <div class="logo">
+            <img class="logo_change" src="images/logo.png" alt="Italian Trulli">
+          </div>
+          <div class="title">
+            <h1 class="title_change">Heatsweaty</h1>
+          </div>
+          <div class="review">
+            A one-stop hub for school assignments encompassing homework and classwork, streamlining learning by offering
+            a convenient repository for academic tasks. Excellent website, 5 star for sure!
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
+
+  <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="studyvault" data-description="Support me on Buy me a coffee!" data-message="To help support this project, consider buying us a coffee! If you want to support us in the long-term, please buy a subscription with the link on the right. It really helps us and YOU get chance to win a FREE subscription!" data-color="#40DCA5" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+
+  <script src="script.js"></script>
+
+  <script>
+    window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/speed-insights/script.js"></script>
+
+</body>
+
+</html>
+<script>
+	window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
+<script>
+	window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/speed-insights/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3ZCFXKLSYT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-3ZCFXKLSYT');
+  </script>
+  <meta charset="UTF-8">
+  <title>Study Vault</title>
+  <link rel="shortcut icon" type="image/png" href="website_logo.png">
+  <link href="studyvault.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* Additional custom styles */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown-content a {
+      display: block;
+      padding: 4px 8px;
+      text-decoration: none;
+      color: #374151;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #F3F4F6;
+      background-color: gray;
+    }
+
+    .review_section {
+      margin-left: 50px;
+      display: inline_block;
+    }
+
+    .logo {
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    .logo_change {
+      width: 50px;
+      height: 50px;
+      border-radius: 60%;
+    }
+
+    .title {
+      display: inline-flex;
+    }
+
+    .title_change {
+      margin-bottom: 10px;
+    }
+
+    .review {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="flex justify-between bg-gray-200 py-4 px-6">
+    <div class="Home">
+      <a href="home_index.html" class="text-gray-800 font-bold">Study Vault</a>
+    </div>
+    <div class="Home">
+      <a href="index_subscription.html" class="text-gray-800">Subscriptions</a>
+    </div>
+  </nav>
+  <div class="p-6 bg-white rounded-md shadow-md">
+    <h1 class="text-xl font-bold mb-4">View Available Subscriptions</h1>
+    <a href="https://www.buymeacoffee.com/studyvault/membership" target="_blank">
+      <button id="animateButton" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Click to proceed</button>
+    </a>  
+  </div>
+  <!-- Add JavaScript for dropdown functionality (if needed) -->
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
+
+  <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="studyvault" data-description="Support me on Buy me a coffee!" data-message="To help support this project, consider buying us a coffee! If you want to support us in the long-term, please buy a subscription with the link on the right. It really helps us and YOU get chance to win a FREE subscription!" data-color="#40DCA5" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+  <script>
+    const animateButton = document.getElementById('animateButton');
+
+    animateButton.addEventListener('hover', () => {
+      animateButton.classList.add('animate-pulse', 'rounded-full', 'bg-yellow-400');
+      setTimeout(() => {
+        animateButton.classList.remove('animate-pulse', 'rounded-full', 'bg-yellow-400');
+      }, 2000); // Change the time duration (in milliseconds) for animation to stop
+    });
+  </script>
+</body 
+</html>

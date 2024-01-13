@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <script src="../courses.js"></script>
+    <title>AP Human Geography</title>
+    <link rel="shortcut icon" type="image/png" href="website_logo.png"/>
+    <link href="../courses.css" rel="stylesheet" type="text/css" />
+		<link href="../tab_content.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .top {
+				text-align: center;
+				font-size: 4vw;
+			} 
+
+			.content {
+				font-size: 3.5vw;
+			}
+			
+			
+    </style>
+  </head>
+  <body>
+    <nav class="flex justify-between bg-gray-200 py-4 px-6">
+      <div class="Home">
+        <a href="../studyvault.html" class="text-gray-800 font-bold"
+          >Study Vault</a
+        >
+      </div>
+      <div class="Home">
+        <a href="../subscriptions.html" class="text-gray-800">Subscriptions</a>
+      </div>
+      <div class="dropdown relative">
+        <button class="dropbutton inline-flex items-center">
+          Elementary School
+          <svg
+            class="w-4 h-4 ml-1"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"
+            ></path>
+          </svg>
+        </button>
+        <div
+          class="dropdown-content hidden absolute bg-white text-gray-800 rounded-lg shadow-lg z-10"
+        >
+          <a href="../elementary/first_grade.html">1st Grade</a>
+          <a href="../elementary/second_grade.html">2nd Grade</a>
+          <a href="../elementary/third_grade.html">3rd Grade</a>
+          <a href="../elementary/fourth_grade.html">4th Grade</a>
+          <a href="../elementary/fifth_grade.html">5th Grade</a>
+        </div>
+      </div>
+      <div class="dropdown relative">
+        <button class="dropbutton inline-flex items-center">
+          Middle School
+          <svg
+            class="w-4 h-4 ml-1"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"
+            ></path>
+          </svg>
+        </button>
+        <div
+          class="dropdown-content hidden absolute bg-white text-gray-800 rounded-lg shadow-lg z-10"
+        >
+          <a href="../middle/sixth_grade.html">6th Grade</a>
+          <a href="../middle/seventh_grade.html">7th Grade</a>
+          <a href="../middle/eight_grade.html">8th Grade</a>
+        </div>
+      </div>
+
+      <div class="dropdown relative">
+        <button class="dropbutton inline-flex items-center">
+          High School
+          <svg
+            class="w-4 h-4 ml-1"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"
+            ></path>
+          </svg>
+        </button>
+        <div
+          class="dropdown-content hidden absolute bg-white text-gray-800 rounded-lg shadow-lg z-10"
+        >
+          <a href="../high/ninth_grade.html">9th Grade</a>
+          <a href="../high/tenth_grade.html">10th Grade</a>
+          <a href="../high/eleventh_grade.html">11th Grade</a>
+          <a href="../high/twelvth_grade.html">12th Grade</a>
+        </div>
+      </div>
+    </nav>
+		<header class="w3-container"> 
+			<h1 class="top">AP Human Geography</h1>
+		</header>
+
+    <div class="w3-bar w3-green">
+      <button class="w3-bar-item w3-button" onclick="openUnit('unit1')">
+        Unit 1
+      </button>
+      <button class="w3-bar-item w3-button" onclick="openUnit('unit2')">
+        Unit 2
+      </button>
+      <button class="w3-bar-item w3-button" onclick="openUnit('unit3')">
+        Unit 3
+      </button>
+    </div>
+
+    <div id="unit1" class="w3-container unit">
+      <h2 class="top">Unit 1 Table of Contents</h2>
+      <ol class="toc">
+        <li class="toc"><a href="#unitOne">1.1 Intro to Maps</a></li>
+        <li class="toc">1.2 Geographic Data</li>
+        <li class="toc">1.3 The Power of Geographic Data</li>
+        <li class="toc">1.4 Spatial Concepts</li>
+        <li class="toc">1.5 Human-Environment Interaction</li>
+        <li class="toc">1.6 Scales of Analysis</li>
+        <li class="toc">1.7 Regional Analysis</li>
+      </ol>
+    </div>
+
+		<div class="w3-container unit1">
+			<h1 id="unitOne">Introduction to Maps</h1>
+			<h1>Big Ideas</h1>
+			<ol type="1">
+				<li>Why do geographers study relationships and patterns among and between places?</li>
+				<li>How do geographers use maps to help them discover patterns and relationships in the world?</li>
+				<li>How do geographers use a spatial perspective to analyze complex issues and relationships?</li>
+			</ol>
+			<p></p>
+		</div>
+
+    <div id="unit2" class="w3-container unit" style="display: none">
+      <h2>Unit 2</h2>
+      <p>Paris is the capital of France.</p>
+    </div>
+
+    <div id="unit3" class="w3-container unit" style="display: none">
+      <h2>Unit 3</h2>
+      <p>Tokyo is the capital of Japan.</p>
+    </div>
+  </body>
+</html>
